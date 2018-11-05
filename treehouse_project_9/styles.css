@@ -4,3 +4,49 @@
 }
 
 /*** adjust the width and height of icon***/
+
+.topNav-right{
+  color:black;
+}
+
+/***display and size of icon and avatar ***/
+
+a .icon{
+  display:inline;
+  width:25px;
+  height:20px;
+  background-color:red;
+}
+
+.avatar{
+  display:inline;
+  width:35px;
+  height:20px;
+  border-radius: 100px;
+}
+
+.topNav a{
+  float:left;
+
+  font-size:15px;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+.topNav-right{
+  float:right;
+
+}
+.topNav-right {
+  padding-bottom:5px;
+}
+/****styling topNav***/
+.topNav{
+  border:100px;
+  padding:25px;
+  border: 45px;
+  background-color: red;
+}
