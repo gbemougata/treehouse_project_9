@@ -46,7 +46,47 @@ a{
 /****styling topNav***/
 .topNav{
   border:100px;
-  padding:25px;
+  padding:45px;
   border: 45px;
   background-color: red;
+}
+
+.icon-bar{
+  width:69px;
+  background-color:blue;
+  padding:25px;
+  height:700px;
+
+}
+.icon-bar a{
+  display:block;
+  text-align:center;
+
+  transition: all 0.4s ease;
+  color:black;
+  font-size:40px;
+}
+.main-section{
+  max-width: 40%;
+
+  margin: 0 auto;
+  display:inline;
+  float: right;
+
+  }
+
+.form{
+  padding-bottom: 40%;
+  display: flex;
+  flex-direction: row;
+
+}
+input[type="text"]{
+  margin-top:25px;
+}
+.dash h2,
+input[type="text"]{
+  display:flex;
+  margin-bottom: 140px;
+
 }
