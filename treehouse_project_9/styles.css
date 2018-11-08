@@ -52,10 +52,10 @@ a{
 }
 
 .icon-bar{
-  width:69px;
+  max-width:60%;
   background-color:blue;
   padding:25px;
-  height:700px;
+  height:30%;
 display: inline-block;
 }
 .icon-bar a{
@@ -63,28 +63,15 @@ display: inline-block;
   text-align:center;
   transition: all 0.4s ease;
   color:black;
-  font-size:40px;
+  font-size:20px;
   width:30px;
 }
-
 form{
-  display:inline-block;
-  margin:0 auto;
+  background-color:red;
   max-width:100%;
+text-align: center;
 }
 
-input[type="text"]{
-  display:inline-block;
-margin-right:50px;
-float:right;
-}
-
-label{
-  display:inline-block;
-  margin-left:520px;
-  margin-bottom:800px;
-}
-
-label{
+.section-1 .Dash{
   float:left;
 }
