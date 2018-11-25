@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
   <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
@@ -74,14 +75,30 @@
 
 
 </div>
+<div class="chart-header">
+  <h3 class="traffic">Traffic</h3>
+</div>
+<div class="chart-header-lists">
+  <ul>
+    <li class="hourly">Hourly</li>
+    <li class="daily">Daily</li>
+    <li class="weekly">Weekly</li>
+    <li class="Monthly">Monthly</li>
+  </ul>
+</div>
+
 <div class="Chart-container">
-  <canvas id="myChart"></canvas>
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
-<script src="main.js"></script>
-
+  <canvas id="webTraffic"></canvas>
+</div>
+<div class="daily">
+  <h4 class="daily traffic">Daily Traffic</h4>
+  <canvas id="dailyTraffic"></canvas>
+</div>
+<div class="mobile">
+  <h5 class="Mobile-users">Mobile Users</h5>
+  <canvas id="mobileUsers"></canvas>
+</div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+           <script src="main.js"></script>
 </body>
 </html>

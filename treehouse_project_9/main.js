@@ -1,18 +1,59 @@
-<script>
-let mychart=document.getElementsById("myChart").getContext("2d");
-
-let linegraph=new Chart(mychart ,{
-  type='line',
+//declare variables
+let webChart=document.getElementById("webTraffic");
+let  dailyChart=document.getElementById("dailyTraffic");
+let mobileChart=document.getElementById("mobileUsers");
+//initialize the first chart
+let trafficChart=new Chart(webChart, {
+  type:'line',
   data:{
-    labels:["16-22", "23-29", "30-5", "6-12", "13-19", "20-26", "27-3", "4-10", "11-17", "18-24", "25-31"],
-            //fontSize: 20,
-
+    labels:['9am', '10am', '11am', '12pm', '13pm', '14pm', '15pm','16pm', '17pm'],
     datasets:[{
-      labels:"hourly", "daily", "weekly", "monthly",
-      data:[500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500],
-    backgroungcolor:[
-      'red', 'green', 'blue', 'pink', 'yellow', 'pink','gray','orange','gold','black','white'
-    ]
-}]
+     data:'',
+      data:[12, 14, 15, 60, 65, 110, 120, 110, 64, 20],
+      backgroundColor:'green'
+
+    }]
+  },
+  options:{
+  legend:{display:false},
+
+
+  }
 })
-</script>
+
+//Daily traffic chart
+let dailyTraffic=new Chart(dailyChart, {
+  type:'bar',
+  data:{
+    labels:['M', 'T', 'W', 'TH', 'F', 'S', 'SUN'],
+    datasets:[{
+      data:'',
+      data:[98, 120, 136, 160, 175, 250, 95, 88],
+      backgroundColor:['green', 'blue', 'gray', 'pink', 'red', 'yellow', 'brown']
+    }]
+  },
+  options:{
+  legend:{display:false},
+
+
+  }
+})
+
+//donut Chart for mobile mobileUsers
+let mobileUsers=new Chart(mobileChart, {
+  type:'doughnut',
+  data:{
+    labels:['mobile', 'tablet', 'desktop'],
+    datasets:[{
+      data:'',
+      data:[350, 175,92],
+      backgroundColor:['pink', 'orange','black']
+    }]
+  },
+  options:{
+  legend:{display:true},
+
+
+  }
+
+})
