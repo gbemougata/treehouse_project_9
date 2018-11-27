@@ -52,9 +52,9 @@ a{
 }
 
 .icon-bar{
-  max-width:900px;
+max-width:1000px;
   background-color:blue;
-  padding:35px;
+  padding:25px;
   display: inline-block;
   height:1000px;
   }
@@ -135,3 +135,15 @@ li:nth-child(3){
 .chart-header-lists
   display:inline-block;
 }***/
+body{
+  max-width:100%;
+  min-height:75%;
+}
+
+.main-chart{
+  width:180px;
+  display:inline-block;
+  margin-left: 300px;
+  margin-bottom: : 450px;
+
+}
