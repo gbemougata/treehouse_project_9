@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+.notification{
+  background:  black;
+  width: 20px;
+  position: relative;
+  height:27px;
+}
+
+.badge {
+		position:relative;
+	}
+	.badge[data-badge]:after {
+		content:attr(data-badge);
+		position:absolute;
+		top:-20px;
+		right:-10px;
+		font-size:0.7em;
+		background:gray;
+		color:red;
+		width:18px;
+    height:18px;
+		text-align:center;
+		line-height:18px;
+		border-radius:78%;
+		box-shadow:1 1 1px #555;
+	}
+
+.header{
+  margin:10px;
+  padding:6px;
+ background-color: green;
+
+}
+
+.logo-photo {
+  width:25px;
+}
+
+.avatar{
+  width:20px;
+  margin-left:13px;
+}
+
+.header-logo,
+.logo-text{
+  display:inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+.header-right{
+  float:right;
+margin-top:25px;
+}
+
+/***alert box***/
+
+
+
+.notification{
+  background:  black;
+  width: 20px;
+  position: relative;
+  height:27px;
+width: 30px;
+}
+li{
+  list-style-type: none;
+}
+.dashboard,
+.members,
+.visits,
+.setting{
+  width:30px;
+  background-color: gray;
+
+}
+.sidebar-nav{
+  height:100%;
+  position:absolute;
+  z-index:1;
+  top:1;
+  left:0;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 20px;
+background: pink;
+margin-left: 10px;
+}
+
+.sidebar-nav li{
+  padding:5px 5px 5px 12px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  transition: 0.3s;
+  margin-right:10px;
+}
