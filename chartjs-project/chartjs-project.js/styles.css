@@ -109,7 +109,7 @@ padding-left:0px;
 max-width:70%;
 padding-left:80px;
 padding-top: 10px;
-display:relative;
+position: relative;
 }
 .search input[type=text] {
   padding: 10px;
@@ -121,7 +121,7 @@ display:relative;
 }
 .search i {
   display:absolute;
-  float: right;
+
   width: 10%;
   padding-bottom:  20px;
   color:black;
@@ -132,6 +132,7 @@ display:relative;
   cursor: pointer;
   padding-right:30px;
   top:0;
+  left:0;
 }
 .dash{
   float:left;
