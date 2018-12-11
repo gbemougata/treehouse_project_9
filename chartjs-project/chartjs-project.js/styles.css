@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+.notification{
+  background:  black;
+  width: 20px;
+
+  height:27px;
+}
+
+.badge {
+		position:relative;
+	}
+	.badge[data-badge]:after {
+		content:attr(data-badge);
+		position:absolute;
+		top:-20px;
+		right:-10px;
+		font-size:0.7em;
+		background:gray;
+		color:red;
+		width:18px;
+    height:18px;
+		text-align:center;
+		line-height:18px;
+		border-radius:78%;
+		box-shadow:1 1 1px #555;
+	}
+
+
+.header{
+background-color: green;
+margin: 0px;
+padding: 0px;
+}
+
+.logo-photo {
+  width:25px;
+}
+
+.avatar{
+  width:20px;
+  margin-left:13px;
+}
+
+.header-logo,
+.logo-text{
+  display:inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+.header-right{
+  float:right;
+margin-top:25px;
+}
+
+/***alert box***/
+
+
+
+.notification{
+  background:  black;
+  width: 20px;
+
+  height:27px;
+width: 30px;
+}
+li{
+  list-style-type: none;
+}
+/******set ul padding to 0 to eliminate the extra padding add by the browser***/
+
+ul {
+padding-left:0px;
+}
+
+/*****decrease the size of icons***/
+.dashboard,
+.members,
+.visits,
+.setting {
+  width:40px;
+
+  padding:10px;
+  }
+
+.sidebar-nav{
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 1;
+  left: 0;
+  background-color: #404;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+.sidebar-nav li {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.search{
+max-width:70%;
+padding-left:80px;
+padding-top: 10px;
+display:relative;
+}
+.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+.search i {
+  display:absolute;
+  float: right;
+  width: 10%;
+  padding-bottom:  20px;
+  color:black;
+
+  font-size: 10px;
+  border: 1px solid grey;
+  border: none;
+  cursor: pointer;
+  padding-right:30px;
+  top:0;
+}
+.dash{
+  float:left;
+  margin-top:10px;
+  padding-right:56px;
+}
