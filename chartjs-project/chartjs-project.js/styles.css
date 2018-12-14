@@ -105,13 +105,67 @@ padding-left:0px;
   display: block;
 }
 .search {
+  display:flex;
+  justify-content: space-between;
   padding-left: 100px;
-  padding-top: 20px;
+  margin-right:10px;
+  padding-top:20px;
   position:relative;
 
+
+
 }
+
+
 .search .fa-search{
   position: absolute;
   top:24px;
-  
+right:10px;
+}
+
+
+
+.alert {
+  padding: 10px;
+  background-color: #d67598;
+  color: white;
+  margin-top: 15px;
+  margin-left:95px;
+  text-indent: 1px;
+
+  font-size: 22px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: 400;
+  float: right;
+  font-size:0; 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: green;
+}
+.chart-container{
+max-width:80%;
+margin:0 auto;
+margin-left:93px;
+}
+ul li{
+  list-style-type: none;
+  display:inline-block;
+  padding:5px;
+  margin-left:40px;
+}
+.traffic-nav{
+  display:flex;
+  justify-content: space-between;
 }
