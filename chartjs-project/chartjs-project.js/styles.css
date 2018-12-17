@@ -155,17 +155,31 @@ right:10px;
   color: green;
 }
 .chart-container{
-max-width:80%;
+max-width:100%;
 margin:0 auto;
-margin-left:93px;
+margin-left:98px;
 }
 ul li{
   list-style-type: none;
   display:inline-block;
-  padding:5px;
+  padding:2px;
   margin-left:40px;
 }
 .traffic-nav{
   display:flex;
   justify-content: space-between;
+}
+li:nth-child(3){
+  color:green;
+}
+.daily-traffic{
+  margin-left:100px;
+}
+.mobile-users{
+  margin-left:50px;
+}
+#trafficChart{
+  width:100%;
+  height:100%;
+  background: blue;
 }
