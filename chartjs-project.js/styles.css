@@ -1,0 +1,190 @@
+*{
+  box-sizing: border-box;
+}
+.notification{
+  background:  black;
+  width: 20px;
+
+  height:27px;
+}
+
+.badge {
+		position:relative;
+	}
+	.badge[data-badge]:after {
+		content:attr(data-badge);
+		position:absolute;
+		top:-20px;
+		right:-10px;
+		font-size:0.7em;
+		background:gray;
+		color:red;
+		width:18px;
+    height:18px;
+		text-align:center;
+		line-height:18px;
+		border-radius:78%;
+		box-shadow:1 1 1px #555;
+	}
+
+
+.header{
+background-color: green;
+margin: 0px;
+padding: 0px;
+}
+
+.logo-photo {
+  width:25px;
+}
+
+.avatar{
+  width:20px;
+  margin-left:13px;
+}
+
+.header-logo,
+.logo-text{
+  display:inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+.header-right{
+  float:right;
+margin-top:25px;
+}
+
+/***alert box***/
+
+
+
+.notification{
+  background:  black;
+  width: 20px;
+
+  height:27px;
+width: 30px;
+}
+li{
+  list-style-type: none;
+}
+/******set ul padding to 0 to eliminate the extra padding add by the browser***/
+
+ul {
+padding-left:0px;
+}
+
+/*****decrease the size of icons***/
+.dashboard,
+.members,
+.visits,
+.setting {
+  width:40px;
+
+  padding:10px;
+  }
+
+.sidebar-nav{
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 1;
+  left: 0;
+  background-color: #404;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+.sidebar-nav li {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+.search {
+  display:flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  margin-right:10px;
+  padding-top:20px;
+  position:relative;
+
+
+
+}
+
+
+.search .fa-search{
+  position: absolute;
+  top:24px;
+right:10px;
+}
+
+
+
+.alert {
+  padding: 10px;
+  background-color: #d67598;
+  color: white;
+  margin-top: 15px;
+  margin-left:95px;
+  text-indent: 1px;
+
+  font-size: 22px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: 400;
+  float: right;
+  font-size:0; 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: green;
+}
+.chart-container{
+max-width:100%;
+margin:0 auto;
+margin-left:98px;
+}
+ul li{
+  list-style-type: none;
+  display:inline-block;
+  padding:2px;
+  margin-left:40px;
+}
+.traffic-nav{
+  display:flex;
+  justify-content: space-between;
+}
+li:nth-child(3){
+  color:green;
+}
+.chart-container {
+  max-width:1200px;
+}
+.second-chart{
+  max-width:450px;
+  margin-left:125px;
+}
+.third-chart{
+  max-width:450px;
+  margin-left: 125px;
+}
+
+.second-chart,
+.third-chart{
+  display:inline-block;
+}
