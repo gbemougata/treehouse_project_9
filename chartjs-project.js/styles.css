@@ -197,12 +197,26 @@ li:nth-child(3){
 .social-stats{
   margin-left:130px;
 }
-.social-containers{
-  width:100%;
+.twitter, .facebook, .googleplus{
+  width:60px;
+margin-left: 200px;
+height:60px;
 }
-.social-icon{
-  width:30px;
-  margin-left: 125px;
-  background: red;
 
+.social-containers, .social-area  {
+  width: 100%;
+  display: inline-flex;
+  justify-content:space-around;
+}
+.twitter{
+  border-radius: 50%;
+}
+/***.social-area {
+  flex: 1;
+
+}**/
+.social-area{
+  border:1px dotted black;
+  border-spacing: 2px;
+  height: 400px;
 }
