@@ -113,7 +113,7 @@ label:'',
     legend:{
       position:'right',
       labels: {
-                padding: 30
+                padding: 10
             },
     },
     layout: {
