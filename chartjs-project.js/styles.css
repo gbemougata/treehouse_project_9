@@ -32,6 +32,9 @@
 background-color: green;
 margin: 0px;
 padding: 0px;
+
+
+
 }
 
 .logo-photo {
@@ -53,7 +56,7 @@ a{
 }
 .header-right{
   float:right;
-margin-top:25px;
+margin:25px 12px 0px 0px;
 }
 
 /***alert box***/
@@ -117,6 +120,7 @@ height:100%;
   margin-right:10px;
   padding-top:20px;
   position:relative;
+  margin-left: 0;
 
 
 
@@ -128,6 +132,9 @@ height:100%;
   top:24px;
 right:10px;
 }
+.dash{
+  margin-left: 0.1rem;
+}
 
 
 
@@ -138,10 +145,11 @@ right:10px;
   margin-top: 15px;
   margin-left:95px;
   text-indent: 1px;
-width:90%;
+  width:88%;
   font-size: 22px;
   font-style: italic;
   font-family: sans-serif;
+  text-align: center;
 }
 
 /* The close button */
@@ -197,26 +205,26 @@ li:nth-child(3){
 .social-stats{
   margin-left:130px;
 }
-.twitter, .facebook, .googleplus{
-  width:60px;
-margin-left: 200px;
-height:60px;
+.twitter-photo{
+  margin-left:160px;
+  width:45px;
+  padding:6px;
+  background-color:blue;
+  border-radius: 100%;
 }
-
-.social-containers, .social-area  {
-  width: 100%;
-  display: inline-flex;
-  justify-content:space-around;
+.facebook-photo{
+  margin-left: 160px;
+  width:35px;
+  background-color: blue;
+  border-radius: 100%;
 }
-.twitter{
-  border-radius: 50%;
+.google{
+  margin-left: 165px;
+  width:35px;
+  padding:4px;
+  background-color: red;
+  border-radius: 100%;
 }
-/***.social-area {
-  flex: 1;
-
-}**/
-.social-area{
-  border:1px dotted black;
-  border-spacing: 2px;
-  height: 400px;
+table p{
+  margin-top:2px;
 }
