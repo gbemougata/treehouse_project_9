@@ -32,7 +32,7 @@
 background-color: green;
 margin: 0px;
 padding: 0px;
-
+height: auto;
 
 
 }
@@ -46,9 +46,11 @@ padding: 0px;
   margin-left:13px;
 }
 
+
 .header-logo,
 .logo-text{
   display:inline-block;
+  margin-left:35px;
 }
 
 a{
@@ -91,16 +93,18 @@ padding-left:0px;
 
 .sidebar-nav{
 height:100%;
-  width: 60px;
-  position: fixed;
+  width: 86px;;
+ position: fixed;
   z-index: 1;
-  top: 1;
+  top: 0;
   left: 0;
   background-color: red;
   overflow-x: hidden;
   padding-top: 16px;
 
 }
+
+
 .sidebar-nav li {
 
   padding-left:2px;
@@ -207,24 +211,106 @@ li:nth-child(3){
 }
 .twitter-photo{
   margin-left:160px;
-  width:45px;
-  padding:6px;
-  background-color:blue;
-  border-radius: 100%;
+  width:40px;
+  height:40px;
+  padding:3%;
+  background-color:pink;
+  border-radius: 50%;
 }
 .facebook-photo{
-  margin-left: 160px;
-  width:35px;
+  margin-left: 165px;
+  width:40px;
+  height: 40px;
+  padding: 3%;
   background-color: blue;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 .google{
   margin-left: 165px;
-  width:35px;
-  padding:4px;
+  width:40px;
+  height:40px;
+  padding:3%;
   background-color: red;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 table p{
   margin-top:2px;
+}
+tbody{
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:60%;
+  margin-left:120px;
+
+
+
+}
+
+tr{
+  flex:1;
+  padding:0 10px;
+  border: 1px solid purple;
+  margin:0 5px;
+
+}
+td{
+  padding:5px;
+}
+
+.member-image{
+  background-color: red;
+}
+
+/******member header****/
+.member-recent {
+  margin-left:120px;
+  line-height: 1.5em;
+ font-style: normal;
+ font-size: 15px;
+ font-weight: bold;
+ font-size-adjust: auto;
+ font-family: serif;
+
+}
+
+.form-area{
+  margin-left:130px;
+}
+
+.submit, .message-search{
+  width:210px;
+}
+.member-image,
+.recent-images{
+  border-radius:100%;
+}
+
+/****table content***/
+.table-content{
+  max-width: 100%;
+  border: none;
+}
+.date {
+  position: relative;
+  left:300px;
+  bottom: 35px;
+
+}
+
+.last-table,
+{
+  max-width: 100%;
+  border: none;
+}
+
+.image-wrap,
+.last-image
+{
+
+  max-width: 100%;
+
+}
+.recent-activity{
+  padding-left:130px;
 }
