@@ -298,19 +298,17 @@ td{
 
 }
 
-.last-table,
-{
-  max-width: 100%;
-  border: none;
-}
 
-.image-wrap,
-.last-image
-{
 
-  max-width: 100%;
-
-}
 .recent-activity{
   padding-left:130px;
+}
+
+.image-wrap{
+  border:none;
+}
+.table-content,
+.last-table{
+  display:inline-flex;
+  justify-content: space-around;
 }
