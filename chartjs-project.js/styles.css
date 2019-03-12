@@ -304,7 +304,11 @@ td{
 
 }
 
+.table-content,
+.image-wrap{
 
+  border-bottom:5px;
+}
 
 .recent-activity{
   padding-left:130px;
@@ -314,11 +318,16 @@ td{
 }
 .first,
 .second{
-  table-layout: fixed;
+  display: inline-block;
   width: 100%;
 }
 tr {
   width:80%;
   text-overflow: ellipsis;
 
+}
+.first-table,
+.last-table{
+  display:inline-block;
+  width:45%;
 }
