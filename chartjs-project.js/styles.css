@@ -285,7 +285,13 @@ td{
 .recent-images{
   border-radius:100%;
 }
-
+.member-image
+{
+  width:60px;
+}
+.recent-images{
+  width:60px;
+}
 /****table content***/
 .table-content{
   max-width: 100%;
@@ -303,12 +309,16 @@ td{
 .recent-activity{
   padding-left:130px;
 }
-
 .image-wrap{
-  border:none;
+  border: none;
 }
-.table-content,
-.last-table{
-  display:inline-flex;
-  justify-content: space-around;
+.first,
+.second{
+  table-layout: fixed;
+  width: 100%;
+}
+tr {
+  width:80%;
+  text-overflow: ellipsis;
+
 }
