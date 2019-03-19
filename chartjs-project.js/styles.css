@@ -271,15 +271,13 @@ td{
  font-weight: bold;
  font-size-adjust: auto;
  font-family: serif;
+ white-space: nowrap;
+
 
 }
 
-.form-area{
-  margin-left:130px;
-}
-
-.submit, .message-search{
-  width:210px;
+.message{
+  padding-left:130px;
 }
 .member-image,
 .recent-images{
@@ -293,10 +291,7 @@ td{
   width:60px;
 }
 /****table content***/
-.table-content{
-  max-width: 100%;
-  border: none;
-}
+
 .date {
   position: relative;
   left:300px;
@@ -305,17 +300,16 @@ td{
 }
 
 .table-content,
-.image-wrap{
-
-  border-bottom:5px;
+.image-wrap
+{
+  max-width:100%;
+  border:none;
 }
 
 .recent-activity{
   padding-left:130px;
 }
-.image-wrap{
-  border: none;
-}
+
 .first,
 .second{
   display: inline-block;
@@ -329,5 +323,103 @@ tr {
 .first-table,
 .last-table{
   display:inline-block;
+  width:46%;
+}
+
+.tables-combine{
+  border-top:3px solid green;
+
+  border-bottom:3px solid green;
+  margin:34px 0 34px 0;
+
+}
+
+.main{
+  width:90%;
+  border-bottom:1px solid red;
+
+}
+.second-main {
+  width:60%;
+  border-bottom: 1px solid red;
+  padding-top: 3px;
+  margin-left: 90px;
+}
+
+.first-table{
+  width:50%;
+
+  border-right:1px solid red;
+}
+.find, .textinput {
+  width:100%;
+  padding:50px 0;
+  margin-left:130px;
+}
+input[type="text"]{
+  padding:5px;
+}
+.textinput{
+
+  padding-top:10px;
+}
+.text{
+  width:100%;
+}
+.submit{
+  width:100%;
+}
+.setting{
+  margin-left:120px;
+}
+input[type="radio"]{
+  margin-left:20px;
+
+
+}
+.setting-info{
+  margin-left: 130px;
+}
+.round{
+  margin-left: 130px;
+}
+.setting-notification, .combine{
+  display:flex;
+  flex-direction: row;
+}
+label{
+  margin-left: 130px;
+}
+.combine{
+  margin-left:-60px;
+}
+.public-notification {
+  display: flex;
+  flex-direction: row;
+  padding:40px 0 ;
+}
+.second-box{
+  margin-left: -30px;
+}
+.timezone{
+  margin-left:130px;
+}
+.timebuttons{
+  padding: 10px;
+  margin-left:120px;
+}
+.save, .cancel{
   width:45%;
+}
+.cancel{
+  margin-left:35px;
+}
+.information-box, .setting-box{
+  display:inline-block;
+
+
+}
+.setting-box{
+  margin-left:200px
+
 }
